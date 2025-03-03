@@ -26,12 +26,21 @@ You can either have a look at the `demonstration.ipynb` which demonstrates SFILE
 
 ## Flowsheet Builder
 
-This repository now includes a graphical Flowsheet Builder tool that allows you to create and visualize chemical process flowsheets without needing to know the SFILES 2.0 notation directly.
+This repository includes a graphical Flowsheet Builder tool that allows you to create and visualize chemical process flowsheets without needing to know the SFILES 2.0 notation directly.
 
 To use the Flowsheet Builder:
 ```sh
 streamlit run flowsheet_builder.py
 ```
+
+### Key Features
+- Add and manage process units with customizable types and names
+- Create and visualize streams between units
+- Support for branches (multiple outputs from one unit)
+- Support for joins (multiple inputs to one unit)
+- Create recycle streams
+- Import/Export SFILES 2.0 strings
+- Real-time visualization of the flowsheet
 
 See [README_FLOWSHEET_BUILDER.md](README_FLOWSHEET_BUILDER.md) for more details on features and usage.
 
